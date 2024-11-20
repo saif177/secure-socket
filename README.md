@@ -12,4 +12,4 @@ Secure-Socket.IO is a real-time communication framework designed to provide secu
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/secure-socket-io.git
+   git clone https://github.com/saif177/secure-socket-io.git
