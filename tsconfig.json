@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "declaration": true, // Add this to generate .d.ts files
+    "declarationMap": true, // Optional: Adds mapping for easier debugging
+    "emitDeclarationOnly": false // Ensures JS and type declarations are both emitted
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

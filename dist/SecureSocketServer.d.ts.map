@@ -1,0 +1,1 @@
+{"version":3,"file":"SecureSocketServer.d.ts","sourceRoot":"","sources":["../src/SecureSocketServer.ts"],"names":[],"mappings":"AAGA,cAAM,kBAAkB;IACpB,OAAO,CAAC,EAAE,CAAS;IACnB,OAAO,CAAC,SAAS,CAAS;gBAEd,MAAM,EAAE,GAAG,EAAE,SAAS,EAAE,MAAM;IAoB1C,aAAa,CAAC,KAAK,EAAE,MAAM,EAAE,OAAO,EAAE,MAAM;CAI/C;AAED,eAAe,kBAAkB,CAAC"}
