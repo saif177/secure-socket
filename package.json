@@ -1,16 +1,33 @@
 {
   "name": "secure-socket",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A lightweight, secure, and encrypted Socket.IO package.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest --config jest.config.js",
+    "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "socket.io",
+    "encryption",
+    "secure",
+    "backend",
+    "communication"
+  ],
+  "author": "Saif Ali",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/secure-socket.git"
+  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "crypto-js": "^4.2.0",
+    "secure-socket": "file:secure-socket-1.0.0.tgz",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1"
   },
